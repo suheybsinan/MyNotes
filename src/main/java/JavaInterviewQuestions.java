@@ -16,7 +16,8 @@ public class JavaInterviewQuestions {
     main (): JVM tarafından aranan methodun adıdır. JVM: Java sanal makinesi
     String args ise main methoda iletilen parametredir.
 
-    'S4: Wrapper Class'lar nelerdir?'C4: Wrapper Class'lar Java primitive datalarını o sınıfın başvuru türl'rine veya o
+    'S4: Wrapper Class'lar nelerdir?
+    'C4: Wrapper Class'lar Java primitive datalarını o sınıfın başvuru türlerine veya o
     Class'ın nesnelerine dönüştürürler.
 
     ''S5: Java da Constructor nedir?
@@ -26,14 +27,14 @@ public class JavaInterviewQuestions {
     'S6: Kaç çeşit Constructor vardır?
     C6:'2 çeşit Constructor vardır.
     1) Default Constructor: herhangi bir girdi ya da değer almaz.
-    2) Parmeterized Con'tructor: durum değişkenlerini sağlanan değerlerle başlatabilir.
+    2) Parmeterized Constructor: durum değişkenlerini sağlanan değerlerle başlatabilir.
 
     ''S7: Bir Class i nasıl singleton yapabiliriz?
-    C7: O Class'ta ki Constructor i priva'e yaparak.
+    C7: O Class'ta ki Constructor i private yaparak.
     '//Singleton sınıfının birincil amacı, nesne oluşturma sayısının sınırını yalnızca bir ile sınırlamaktır. Bu genellikle soket veya veritabanı bağlantısı gibi kaynaklara erişim kontrolünün olmasını sağlar.
     '//Örneğin, bizde bir lisans var ve sadece bir veritabanı bağlantımız var veya varsayalım ki JDBC sürücümüz multithreading yapmamıza izin vermiyorsa, o zaman Singleton sınıfı devreye giriyor ve bir seferde yalnızca tek bir bağlantı olmasını sağlıyor. veya tek bir iş parçacığı bağlantıya erişebilir.
 
-    ''''S8: Java da ArrayList ve Vector arasınd'ki fark nedir?
+    ''''S8: Java da ArrayList ve Vector arasındaki fark nedir?
     C8: ArrayList hızlı olması için senkronize edilmemiştir ancak Vector, iş parçacığı açısından güvenli olduğundan yavaş olması için senkronize edilmiştir.
     '//A Synchronized class is a thread-safe class. Non-Synchronized means that two or more threads can access the methods of that particular class at any given time. StringBuilder is an example of a non-synchronized class. Generally, a non-synchronized class is not thread'safe.
     '//Bir Synchronized s'nif, iş parçacığı açısından güvenli bir sınıftır. Senk'onize Olmayan, iki veya daha fazla iş parçacığının herhangi bir zamanda söz konu'u sınıfın yöntemlerine e'işebileceği anlamına gelir. StringBuilder, senkronize olmayan bir'sınıf örneğidir. Genel olarak, senkronize olmayan bir sınıf iş parçacığı açısından güvenli değildi'.
@@ -130,7 +131,8 @@ public class JavaInterviewQuestions {
     Final Methodlar override edilemez. Final Class'lar extends edilemez.
 
 
-    S26: Break ve Continue yapıları arasındaki farklar nelerdir? C26:
+    S26: Break ve Continue yapıları arasındaki farklar nelerdir?
+    C26:
     1. Break Switch ve Loop'larda kullanılır.
     Continue sadece Loop'larda kullanılır.
     2. Break sistem çalışırken bulunduğu işlemi sonlandırır.
